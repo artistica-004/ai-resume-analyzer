@@ -11,3 +11,6 @@ pinned: false
 
 # AI Resume Analyzer
 Upload your resume + paste a job description to get a match score, missing keywords, and improved bullet points.
+
+Live Demo :
+https://huggingface.co/spaces/artistica-004/ai-resume-analyzer
