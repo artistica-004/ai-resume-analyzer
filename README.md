@@ -64,3 +64,63 @@ pip install -r requirements.txt
 **4. Add your Groq API key**
 
 Create a `.env` file in the root folder:
+
+GROQ_API_KEY=your_groq_api_key_here
+
+Get your free API key at [console.groq.com](https://console.groq.com)
+
+**5. Run the app**
+```bash
+streamlit run app.py
+```
+
+Open `http://localhost:8501` in your browser.
+
+---
+
+## 🔑 Environment Variables
+
+| Variable | Description |
+|----------|-------------|
+| `GROQ_API_KEY` | Your Groq API key from console.groq.com |
+
+---
+
+## 📌 How It Works
+
+1. User uploads their resume (PDF or DOCX)
+2. User pastes the target job description
+3. App extracts text from the resume using PyPDF2 / python-docx
+4. Resume + JD are sent to Groq LLM with a structured prompt
+5. Pydantic validates the JSON response into 6 fields
+6. Results are displayed in a clean Streamlit UI
+
+---
+
+## 🧠 Key Concepts Demonstrated
+
+- **Structured LLM output** using Pydantic for reliable JSON extraction
+- **Prompt engineering** for multi-field structured data extraction
+- **PDF/DOCX parsing** in Python
+- **Streamlit** file upload and dynamic UI rendering
+- **Secure API key management** via environment variables
+
+---
+
+## 🌐 Deployment
+
+Deployed on **Hugging Face Spaces** using Streamlit SDK.
+API key stored securely as a repository secret.
+
+---
+
+## 👩‍💻 Author
+
+**Shivani Chaudhary**
+[GitHub](https://github.com/artistica-004)
+
+---
+
+## 📜 License
+MIT License
+
