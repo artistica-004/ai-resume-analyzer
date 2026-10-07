@@ -1,0 +1,18 @@
+I have built AI Resume analyser wherein the input is resume along with JD.The llm analyses id the resume matches the job or not and it gives the strength and the weaknesses with a score out of 10 and missing keywords to be added in order to improve the resume nd make it ATS friendly
+
+1.user input-resume and JD
+2.text extraction-pypdf2  for pdf and for docx python-docx
+3.LLm analysis- the resume text and jb is injected into a written propmpt n is passed on to the LLm.
+the prompt instructs the llm to return a specific JSON structure with 6 feilds
+4.Pydantic-It is an python lib, now the raw response from the llm is injected into pydantic n it gives structed o/p with all validated 6 fields 
+5.streamlit renders the match score as a progress bar 
+
+Tech stack used in this is 
+1.FE streamlit 
+2.Groq api + groq llm 
+3.Pydantic checks that matches data exactly and checks all fiels exists or not
+4.pypdf2 and python-docx
+5.python-dotenv 
+
+Propmt engineering--The propmt tells the LLm to what eacxtly it has to do 
+

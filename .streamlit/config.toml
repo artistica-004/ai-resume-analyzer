@@ -1,0 +1,14 @@
+[server]
+maxUploadSize = 5          # MB, matches MAX_FILE_MB in core/parser.py
+headless = true
+
+[client]
+showErrorDetails = false   # never show raw stack traces to users
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#2563eb"
+font = "sans serif"

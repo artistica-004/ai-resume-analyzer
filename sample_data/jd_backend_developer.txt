@@ -1,0 +1,24 @@
+Backend Developer (Python) — Bengaluru
+
+We are hiring a Backend Developer with 3+ years of experience to design and scale the APIs behind
+our fintech payments product.
+
+What you will do
+- Design, build and maintain RESTful APIs and microservices in Python (Django / FastAPI).
+- Model data and write efficient queries in PostgreSQL; use Redis for caching.
+- Write unit tests with pytest and maintain CI/CD pipelines using GitHub Actions.
+- Deploy and operate services on AWS using Docker and Kubernetes.
+- Review code and mentor junior developers.
+
+Must have
+- 3+ years of professional backend development experience.
+- Strong Python and Django or FastAPI.
+- RESTful API design and microservices architecture.
+- PostgreSQL and Redis.
+- Docker and CI/CD.
+- B.Tech / B.E. in Computer Science or equivalent.
+
+Good to have
+- Kubernetes and AWS.
+- Experience in payments or fintech domain.
+- Agile / Scrum experience.

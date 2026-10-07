@@ -1,0 +1,27 @@
+Junior Machine Learning Engineer — Hyderabad (Hybrid)
+
+About the role
+We are looking for a Junior Machine Learning Engineer to build and deploy ML models that power
+recommendations for our e-commerce platform. You will work with data scientists and backend engineers
+to take models from notebook to production.
+
+Responsibilities
+- Build, train and evaluate machine learning models for classification and recommendation.
+- Clean and analyze large datasets using Python, Pandas and SQL.
+- Deploy models as RESTful APIs using FastAPI or Flask.
+- Containerize services with Docker and support CI/CD pipelines.
+- Monitor model performance and communicate results to stakeholders.
+
+Requirements (must have)
+- 0-1 years of experience (freshers with strong projects welcome).
+- Strong Python programming skills.
+- Hands-on experience with Machine Learning using scikit-learn.
+- Experience building RESTful APIs.
+- Good knowledge of SQL.
+- Bachelor's degree in Computer Science or a related field.
+
+Nice to have
+- Experience with Deep Learning frameworks such as PyTorch or TensorFlow.
+- Familiarity with Docker and Git.
+- Exposure to NLP or Large Language Models.
+- Good communication and teamwork skills.
