@@ -1,3 +1,15 @@
+---
+title: AI Resume Analyzer
+emoji: 📄
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: "1.55.0"
+python_version: "3.11"
+app_file: app.py
+pinned: false
+---
+
 # 📄 AI Resume Analyzer
 
 An AI-powered resume analyzer that compares your resume against a job description and gives you a match score, missing keywords, and rewrites your weak bullet points to be stronger and ATS-friendly.
